@@ -26,9 +26,7 @@ app.use("/products",productsRouter);
 //     res.send("Hello in this project");
 // })
 
-app.get("/", (req,res)=>{
-    res.send("Temporary route for checking!!");
-})
+
 app.listen(3000, (req,res)=>{
     console.log("Project is now running");
 })
