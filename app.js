@@ -26,7 +26,13 @@ app.use("/products",productsRouter);
 //     res.send("Hello in this project");
 // })
 
+app.get("/", (req,res)=>{
+    res.send("Temporary route for checking!!");
+})
 app.listen(3000, (req,res)=>{
-    console.log("Project is running");
+    console.log("Project is now running");
 })
 
+
+
+// this is for checking that the updation is working or not.
