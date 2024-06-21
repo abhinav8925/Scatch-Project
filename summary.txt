@@ -1,0 +1,20 @@
+UserModel
+a) Full Name
+b) Email
+c) Password
+d) Cart
+e) IdAdmin
+f) Orders
+g) Contact Number
+h) Picture
+
+
+
+Product
+a) Image
+b) Name
+c) Price
+d) Discount
+e) Bg Color
+f) Panel Color
+g) Textcolor
