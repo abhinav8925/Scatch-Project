@@ -1,5 +1,5 @@
-const mongoose = require('mongooose');
-const ownermodel = mongoose.Schema({
+const mongoose = require('mongoose');
+const ownermodel = new mongoose.Schema({
     fullname: {
         type: String,
         minlength: 3,

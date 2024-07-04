@@ -22,10 +22,9 @@ app.use("/products",productsRouter);
 
 
 
-// app.get("/", (req,res)=>{
-//     res.send("Hello in this project");
-// })
-
+app.get("/", (req,res)=>{
+    res.send("Hello in this project");
+})
 
 app.listen(3000, (req,res)=>{
     console.log("Project is now running");
@@ -33,4 +32,10 @@ app.listen(3000, (req,res)=>{
 
 
 
+
+
 // this is for checking that the updation is working or not.
+
+
+
+
